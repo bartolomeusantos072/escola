@@ -7,6 +7,10 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 </head>
 <body>
+<?php
+include('config.php');
+include('menu.php');
+?>
 <table border=1>
         <thead>
             <tr>

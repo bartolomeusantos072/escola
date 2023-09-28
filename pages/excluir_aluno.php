@@ -1,6 +1,6 @@
 <?php
 include('config.php');
-
+include('visualizar_alunos.php');
 $dados = $_GET;
 
 $sql = "DELETE FROM aluno WHERE id_alu = ?";

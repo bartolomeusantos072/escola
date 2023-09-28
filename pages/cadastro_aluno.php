@@ -1,7 +1,4 @@
-<?php
-// Inclua o arquivo do menu
-include('menu.php');
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +10,10 @@ include('menu.php');
 
 </head>
 <body>
+<?php
+include('config.php');
+include('menu.php');
+?>    
 <section class="page">
     
     <form enctype="multipart/form-data" method="post" action="aluno_insert.php" >

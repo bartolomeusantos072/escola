@@ -1,5 +1,4 @@
 <?php
-// Inclua o arquivo do menu
 include('menu.php');
 
 if (!empty($_GET['id'])) {
