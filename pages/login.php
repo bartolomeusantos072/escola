@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Login</h1>
-        <a href="site_escola.php">Acessar o Sistema</a>
-    </div>
-</body>
-</html>
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST["username"];
+    $password = $_POST["password"];
+
+    if ($username === "usuario@gmail.com" && $password === "123456") {
+        header("Location: site_escola.php"); 
+        exit;
+    } else {
+        echo "<script>alert('Credenciais inválidas. Tente novamente.');</script>";
+    }
+}
+?>

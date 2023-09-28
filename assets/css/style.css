@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900 &display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #666
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.page span {
+    color: #666;
+
+}
+.dark-page{
+    background-color: #480ca8;
+}
+.dark-page h1{
+    color:white;
+    margin:0px;
+    padding: 0px;
+}
+input[readonly="1"]{
+    background: #e0e0e0;
+    border:1px solid #b0b0b0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #480ca8;
+    color:white;
+    border-radius: 7px;
+    max-width: 70%;
+    min-width: 60%;
+    height: 100%;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+    margin: 40px;
+}
+
+form h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+form p {
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+form input, form select, form div{
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+form div{
+  display: flex;
+  justify-content: space-around;
+  
+}
+form textarea {
+    height: 10%;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+form input:focus {
+    border: 1px solid #007bff;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+form a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: white;
+    transition: all linear 160ms;
+}
+
+form a:hover {
+    color: #007bff;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #007bff;
+
+}
+header {
+    height: 70px;
+    width: 100%;
+    position: absolute;
+}
+main {
+    margin-top: 80px;
+}
+footer {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    margin: 0;
+    padding: 0;
+    background-color: #007bff;
+}
+
+.logout{
+    position: relative;
+    
+    left:calc(100%/3);
+
+}
+aside {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    align-items: flex-start;
+    margin:0;
+}
+.products li{
+    margin:10px;
+    background-color: white;
+}
+
+.bem-vindo{
+    display: flex;
+    justify-content: space-around;
+}
+
+#album img{
+    width: 300px;
+    height: 200px;
+    margin:10px;
+
+}
+
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+table > thead > tr {
+    background-color: whitesmoke;
+}
+
+table td{
+    padding: 5px;
+}
+
+.tbutton {
+    height: 100px;
+    background: white;
+    border: 1px solid #888;
+    margin-top: 10px;
+    padding: 4px;
+    cursor:pointer;
+}
